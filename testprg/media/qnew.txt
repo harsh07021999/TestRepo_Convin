@@ -1,0 +1,2 @@
+determine the four bands of dwt2 transform.
+find full theory and code to be executed.
