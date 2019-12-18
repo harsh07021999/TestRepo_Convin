@@ -1,8 +1,10 @@
 {% for tut in test %}
     <p>{{tut.encrypt}}</p>
+    {% if tut.encrypt is not None %}
     <a href='{{tut.input_file.url}}'>
     	file
     </a>
+    {% endif %}
     <p>{{tut.state_check1}}</p>
     <br><br>
 {% endfor %}
